@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 80px auto;
+  padding: 20px;
+  width: 500px;
+  background-color: rgb(251, 251, 251);
+  border: transparent;
+  border-radius: 20px;
+}
+
+#usuarios-form-tittle {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.formulario h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+#sangre {
+  margin-bottom: 60px;
+}
+
+.formulario label {
+  margin: 10px 0px 2px 0px;
+  font-size: 16px;
+}
+
+.formulario input {
+  width: 40%;
+  text-align: center;
+  border: 2px solid rgba(159, 197, 219, 0.145);
+  outline: none;
+  border-radius: 18px;
+  margin-top: 6px;
+  padding: 6px 6px;
+  background-color: rgba(70, 136, 171, 0.145);
+}
+
+.formulario button {
+  font-size: 16px;
+  background-color: #51D94c;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(25, 254, 0, 0.4);
+  cursor: pointer;
+  padding: 10px 100px;
+  margin: 20px 0px 10px 0px;
+}
+
+.usuario1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usuario2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usuario3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
