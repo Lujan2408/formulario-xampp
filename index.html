@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20c60e3a4b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
@@ -26,7 +27,10 @@
             <input type="email" name="correo1" id="correo" required placeholder="Ejm: correo@correo.com">
             
             <label for="input-password">Contraseña:</label>
-            <input type="password" name="pass1" id="input-password" required placeholder="Ingresa tu Contraseña">
+            <div>
+                <input type="password" name="pass1" id="input-password" required placeholder="Ingresa tu Contraseña">
+                <i id="button-pass" class="fa-regular fa-eye"></i>
+            </div>
             
             <label for="tel">Telefono:</label>
             <input type="number" name="tel1" id="tel" required placeholder="Ejm: 3104327217">
@@ -57,8 +61,11 @@
             <label for="correo2">Correo:</label>
             <input type="email" name="correo2" id="correo2" required placeholder="Ejm: correo@correo.com">
             
-            <label for="pass2">Contraseña:</label>
-            <input type="password" name="pass2" id="pass2" required placeholder="Ingresa tu Contraseña">
+            <label for="input-password2">Contraseña:</label>
+            <div>
+                <input type="password" name="pass2" id="input-password2" required placeholder="Ingresa tu Contraseña">
+                <i id="button-pass2" class="fa-regular fa-eye"></i>
+            </div>
             
             <label for="tel2">Telefono:</label>
             <input type="number" name="tel2" id="tel2" required placeholder="Ejm: 3104327217">
@@ -89,8 +96,11 @@
             <label for="correo3">Correo:</label>
             <input type="email" name="correo3" id="correo3" required placeholder="Ejm: correo@correo.com">
             
-            <label for="pass3">Contraseña:</label>
-            <input type="password" name="pass3" id="pass3" required placeholder="Ingresa tu Contraseña">
+            <label for="input-password3">Contraseña:</label>
+            <div>
+                <input type="password" name="pass3" id="input-password3" required placeholder="Ingresa tu Contraseña">
+                <i id="button-pass3" class="fa-regular fa-eye"></i>
+            </div>
             
             <label for="tel3">Telefono:</label>
             <input type="number" name="tel3" id="tel3" required placeholder="Ejm: 3104327217">
@@ -112,5 +122,7 @@
         <button>Enviar</button>
         
     </form>
+
+    <script src="./data/showPassword.js"></script>
 </body>
 </html>
